@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="globParent" alignment="center" xmlns="http://javafx.com/javafx/8.0.112-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.FileStorage.Client.ShareController">
+    <TextField fx:id="name" maxWidth="200" promptText="New name">
+      <VBox.margin>
+         <Insets bottom="10.0" />
+      </VBox.margin></TextField>
+    <Button onAction="#share" prefWidth="200" text="Rename">
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets>
+      <VBox.margin>
+         <Insets top="10.0" />
+      </VBox.margin></Button>
+</VBox>
